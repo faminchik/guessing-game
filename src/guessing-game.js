@@ -18,5 +18,5 @@ class GuessingGame {
         this.min = this.guess() + 1;
     }
 }
-
+module.exports = GuessingGame;
 
