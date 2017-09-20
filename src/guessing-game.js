@@ -19,30 +19,3 @@ class GuessingGame {
     }
 }
 module.exports = GuessingGame;
-
-const game = new GuessingGame();
-game.setRange(0, 1501)
-
-let result = game.guess();
-game.lower();
-result = game.guess();
-game.lower();
-result = game.guess();
-game.greater();
-result = game.guess();
-game.greater();
-result = game.guess();
-game.lower();
-result = game.guess();
-game.lower();
-result = game.guess();
-game.lower();
-result = game.guess();
-game.lower();
-result = game.guess();
-game.greater();
-result = game.guess();
-game.lower();
-result = game.guess();
-
-console.log(result)
